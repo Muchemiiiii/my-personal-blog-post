@@ -1,0 +1,44 @@
+/* Contact form styles */
+.contact-section {
+    width: 50%; /* Set the width of the contact form */
+    max-width: 600px; /* Ensure the form doesn't get too wide on large 
+    screens */
+    margin: auto; /* Center the form */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .contact-section h2 {
+        text-align: center;
+        }
+        .contact-section form {
+            display: flex;
+            flex-direction: column;
+            }
+            .contact-section form label {
+                margin-bottom: 10px;
+                }
+                .contact-section form input[type="text"],
+.contact-section form input[type="email"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box; /* Include padding and border in the 
+element's total width and height */
+}
+.contact-section form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    align-self: center; /* Center the submit button */
+    }
+    .contact-section form input[type="submit"]:hover {
+        background: #555;
+        }
+        
